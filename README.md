@@ -8,4 +8,6 @@ django-admin startproject sample
 
 cd sample/
 python3 manage.py runserver
+
+python3 manage.py startapp polls
 ```
