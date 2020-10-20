@@ -10,4 +10,6 @@ cd sample/
 python3 manage.py runserver
 
 python3 manage.py startapp polls
+
+python3 manage.py migrate
 ```
