@@ -12,4 +12,7 @@ python3 manage.py runserver
 python3 manage.py startapp polls
 
 python3 manage.py migrate
+
+python3 manage.py makemigrations polls
+python3 manage.py sqlmigrate polls 0001
 ```
