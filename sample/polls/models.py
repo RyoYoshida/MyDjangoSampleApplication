@@ -26,7 +26,8 @@ class Choice(models.Model):
 
 class Answer(models.Model):
     choice = models.ForeignKey(Choice, on_delete=models.CASCADE)
+    answer_text = models.TextField(default="")
     pub_date = models.DateTimeField('date published')
 
     def __str__(self):
-        return self.choice
+        return str(self.choice)
