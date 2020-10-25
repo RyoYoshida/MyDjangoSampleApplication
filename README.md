@@ -18,4 +18,5 @@ python3 manage.py sqlmigrate polls 0001
 python3 manage.py migrate
 
 cat polls/question.py |  python3 manage.py shell
+python3 manage.py test polls
 ```
