@@ -17,6 +17,8 @@ python3 manage.py makemigrations polls
 python3 manage.py sqlmigrate polls 0001
 python3 manage.py migrate
 
+python3 manage.py createsuperuser
+
 cat polls/question.py |  python3 manage.py shell
 python3 manage.py test polls
 ```
